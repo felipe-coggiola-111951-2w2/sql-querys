@@ -32,7 +32,7 @@ LEFT JOIN [dbo].[Estudiantes] AS Pr
 
 
 	/*1.Indicar por jornada la cantidad de docentes que dictan y sumar los costos.
-Esta información solo se desea visualizar para las asignaturas de desarrollo web.
+Esta informaciÃ³n solo se desea visualizar para las asignaturas de desarrollo web.
 El resultado debe contener todos los valores registrados en la primera tabla,
 Renombrar la columna del calculo de la cantidad de docentes como cant_docentes y
 la columna de la suma de los costos como suma_total. Keywords: Asignaturas,Staff, DocentesID, Jornada, Nombre, costo*/
@@ -47,7 +47,7 @@ GROUP BY Asi.Jornada
 
 /*2. Se requiere saber el id del encargado, el nombre, el apellido y cuantos son los docentes
 que tiene asignados cada encargado. Luego filtrar los encargados que tienen como resultado 0
-ya que son los encargados que NO tienen asignado un docente. Renombrar el campo de la operación como Cant_Docentes.
+ya que son los encargados que NO tienen asignado un docente. Renombrar el campo de la operaciÃ³n como Cant_Docentes.
 Keywords: Docentes_id, Encargado, Staff, Nombre, Apellido,Encargado_ID. */
 
 
@@ -67,5 +67,5 @@ GROUP BY Asi.Nombre
 HAVING COUNT(Do.DocentesID)=0;
 
 
-
+holisss
 
